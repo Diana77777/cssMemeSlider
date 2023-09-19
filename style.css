@@ -68,7 +68,9 @@ input[type="radio"]:checked~label {
 .control:hover {
   background-color: #ffcc00;
 }
-
+.control:active {
+  background-color: #ff5e36;
+}
 .controls-block {
   height: 50%;
   width: 50%;
