@@ -130,6 +130,10 @@ input[type="radio"] {
 #control-1:checked~.memeSlider-other .text {
   transform: translateX(0%);
 }
+#control-1:checked~.memeSlider-other .check1 {
+background-color: #ffcc00;
+}
+
 
 #control-2:checked~.memeSlider {
   transform: translateX(-100%);
@@ -138,6 +142,9 @@ input[type="radio"] {
 #control-2:checked~.memeSlider-other .text {
   transform: translateX(-20%);
 }
+#control-2:checked~.memeSlider-other .check2 {
+  background-color: #ffcc00;
+  }
 
 #control-3:checked~.memeSlider {
   transform: translateX(-200%);
@@ -146,7 +153,9 @@ input[type="radio"] {
 #control-3:checked~.memeSlider-other .text {
   transform: translateX(-40%);
 }
-
+#control-3:checked~.memeSlider-other .check3 {
+  background-color: #ffcc00;
+  }
 #control-4:checked~.memeSlider {
   transform: translateX(-300%);
 }
@@ -154,7 +163,9 @@ input[type="radio"] {
 #control-4:checked~.memeSlider-other .text {
   transform: translateX(-60%);
 }
-
+#control-4:checked~.memeSlider-other .check4 {
+  background-color: #ffcc00;
+  }
 #control-5:checked~.memeSlider {
   transform: translateX(-400%);
 }
@@ -162,6 +173,9 @@ input[type="radio"] {
 #control-5:checked~.memeSlider-other .text {
   transform: translateX(-80%);
 }
+#control-5:checked~.memeSlider-other .check5 {
+  background-color: #ffcc00;
+  }
 
 @media (max-width: 600px) {
   .memeSlider-other {
